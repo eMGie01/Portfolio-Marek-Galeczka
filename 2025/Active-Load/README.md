@@ -26,11 +26,12 @@ The system implements a PID controller with real-time compensation for MOSFET th
 
 ### Main features:
 - Three operation modes:
- - 1. CC — Constant Current
- - 2. CR — Constant Resistance
- - 3. CP — Constant Power
+   1. CC — Constant Current
+   2. CR — Constant Resistance
+   3. CP — Constant Power
 - PID control with temperature compensation
 - Real-time acquisition of voltage, current, and temperature
 - Data logging in .CSV format (time, current, voltage, power, temperature)
 - PC communication via UART protocol
 - Local LCD interface with encoder navigation
+
