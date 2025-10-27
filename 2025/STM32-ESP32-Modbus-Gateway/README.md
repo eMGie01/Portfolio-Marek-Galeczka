@@ -1,9 +1,8 @@
 # STM32–ESP32 Modbus Gateway (FreeRTOS + Web Interface)
 
-A dual-MCU system combining **STM32** and **ESP32**, designed to demonstrate  
-real-time communication over **Modbus RTU** and live web-based telemetry.  
-The ESP32 acts as a **gateway and web server**, while the STM32 operates as a **Modbus device**.  
-The project integrates **FreeRTOS**, **queues**, and **semaphores** to ensure deterministic data flow.
+A dual-MCU system combining STM32 and ESP32, designed to demonstrate real-time communication over **Modbus RTU** and live web-based telemetry.  
+The ESP32 acts as a gateway and web server, while the STM32 operates as a Modbus device.  
+The project integrates FreeRTOS, queues, and semaphores to ensure deterministic data flow.
 
 ## Features
 
@@ -40,4 +39,5 @@ The ESP32 hosts a simple, responsive web page that:
 - Displays live Modbus data (register values, communication status)
 - Allows toggling the LED on STM32 or ESP32
 - Runs fully locally (no internet required)
+
 
