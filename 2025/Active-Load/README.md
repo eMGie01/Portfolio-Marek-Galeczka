@@ -43,4 +43,11 @@ A dedicated C# application (Visual Studio) allows:
 - Control of data logging and stop conditions
 - Visualization of battery discharge characteristics
 
+## Tools & Environment
+
+- Platform: STM32CubeIDE 1.18.0
+- Language: C / C#
+- Simulation: LTspice, MATLAB (analysis)
+- PCB Design: KiCad 9.0
+- Libraries: HAL, FatFS, DS18B20, UART
 
