@@ -1,2 +1,2 @@
-# Portfolio
-Repo for all of my portfolio projects
+# Portfolio (Marek Gałeczka)
+Hello, this is my repo for all of my Projects
