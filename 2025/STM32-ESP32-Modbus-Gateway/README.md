@@ -40,4 +40,7 @@ The ESP32 hosts a simple, responsive web page that:
 - Allows toggling the LED on STM32 or ESP32
 - Runs fully locally (no internet required)
 
+## Project DEMO
+Short animations showing Modbus communication and LED control in action:
+![Website](docs/website.gif)
 
