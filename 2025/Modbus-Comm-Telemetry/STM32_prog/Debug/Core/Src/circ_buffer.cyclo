@@ -1,7 +1,0 @@
-../Core/Src/circ_buffer.c:12:8:cb_taken_space	3
-../Core/Src/circ_buffer.c:18:15:cb_free_space	1
-../Core/Src/circ_buffer.c:28:13:cb_is_empty	3
-../Core/Src/circ_buffer.c:33:6:cb_buffer_init	1
-../Core/Src/circ_buffer.c:42:6:cb_buffer_push	3
-../Core/Src/circ_buffer.c:57:8:cb_buffer_pull	4
-../Core/Src/circ_buffer.c:76:6:cb_buffer_reset	1
