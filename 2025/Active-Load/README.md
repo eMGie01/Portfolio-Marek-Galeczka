@@ -35,3 +35,12 @@ The system implements a PID controller with real-time compensation for MOSFET th
 - PC communication via UART protocol
 - Local LCD interface with encoder navigation
 
+## PC Application
+
+A dedicated C# application (Visual Studio) allows:
+- Remote configuration of operating mode and parameters
+- Real-time monitoring over UART
+- Control of data logging and stop conditions
+- Visualization of battery discharge characteristics
+
+
