@@ -21,10 +21,18 @@ It integrates an ESP32 DevKitC, a TF-Luna LiDAR sensor, and a 1.8” TFT LCD for
 ### Display: Waveshare TFT 1.8” (ST7735S driver, 128×160 RGB, SPI)
 ### Power Supply: 4 × AA batteries (5.2 V total)
 ### Buttons:
-    - MENU – select operation mode
-    - UNIT – change measurement unit
-    - START – trigger measurement
+- MENU – select operation mode
+- UNIT – change measurement unit
+- START – trigger measurement
 ### Enclosure: Cardboard housing for protection and portability
 
 ## Software
 
+The firmware was written in C/C++ (Arduino framework) for ESP32.
+###
+Main features:
+- Measurement of distance using LiDAR (ToF principle — Time of Flight)
+- Calculation of room area in “Area” mode
+- Unit switching: cm, mm, inch
+- Display update via SPI interface (ST7735S controller)
+- Basic menu navigation using hardware buttons
