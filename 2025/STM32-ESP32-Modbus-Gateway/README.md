@@ -41,10 +41,18 @@ The ESP32 hosts a simple, responsive web page that:
 - Runs fully locally (no internet required)
 
 ## Project DEMO
+
 Short animations showing Modbus communication and LED control in action:
+
 ### Web Interface
+
 ![Website](docs/website.gif)
+
 ### ESP32 – LED controlled via HTTP request
+
 ![ESP32](docs/esp32.gif)
+
 ### STM32 – LED signaling Modbus frame acknowledgment
+
 ![STM32](docs/stm32.gif)
+
