@@ -1,0 +1,8 @@
+../Core/Src/mbus.c:39:17:mb_crc16	4
+../Core/Src/mbus.c:54:13:mb_led_hand	3
+../Core/Src/mbus.c:65:13:mb_send_regs	4
+../Core/Src/mbus.c:91:13:mb_parse_frame	2
+../Core/Src/mbus.c:121:13:mb_reg_init	1
+../Core/Src/mbus.c:128:6:HAL_UART_RxCpltCallback	3
+../Core/Src/mbus.c:138:6:mb_init	1
+../Core/Src/mbus.c:145:6:mb_read	6

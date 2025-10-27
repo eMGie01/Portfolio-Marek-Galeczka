@@ -1,12 +1,3 @@
-
-/*/ TO DO: 
-- odczyt wartości z enkodera |x|
-- regulator PI |x|
-- antywindup |x|
-- dodanie obsługi przycisków |x|
-- dodanie wyświetlacza |x|
-/*/
-
 #include <Adafruit_GFX.h>    
 #include <Adafruit_ST7735.h> 
 #include <SPI.h>
@@ -67,7 +58,6 @@ void setup(){
   tft.fillScreen(ST77XX_BLACK);
   tft.setTextColor(ST77XX_WHITE);
   tft.setTextSize(2);
-
 }
 
 void loop(){
