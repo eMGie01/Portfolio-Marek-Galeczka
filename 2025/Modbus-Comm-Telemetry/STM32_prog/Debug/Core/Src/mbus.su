@@ -1,8 +1,0 @@
-../Core/Src/mbus.c:39:17:mb_crc16	24	static
-../Core/Src/mbus.c:54:13:mb_led_hand	16	static
-../Core/Src/mbus.c:65:13:mb_send_regs	64	dynamic
-../Core/Src/mbus.c:91:13:mb_parse_frame	24	static
-../Core/Src/mbus.c:121:13:mb_reg_init	4	static
-../Core/Src/mbus.c:128:6:HAL_UART_RxCpltCallback	16	static
-../Core/Src/mbus.c:138:6:mb_init	8	static
-../Core/Src/mbus.c:145:6:mb_read	24	static
