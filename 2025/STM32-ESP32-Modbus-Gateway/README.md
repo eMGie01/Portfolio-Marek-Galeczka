@@ -42,5 +42,6 @@ The ESP32 hosts a simple, responsive web page that:
 
 ## Project DEMO
 Short animations showing Modbus communication and LED control in action:
-![Website](docs/website.gif)
+### ![Website](docs/website.gif)
+
 
