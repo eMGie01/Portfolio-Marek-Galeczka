@@ -11,14 +11,14 @@ The project integrates **FreeRTOS**, **queues**, and **semaphores** to ensure de
 - Web dashboard hosted on ESP32 for real-time monitoring and control  
 - FreeRTOS-based task scheduling with inter-task communication via queues and semaphores  
 
-## ⚙️ Hardware Setup
+## Hardware Setup
 
 | Board | Function | Connection |
 |--------|-----------|-------------|
-| **STM32 NUCLEO-L467RG** | Modbus Slave | UART2 (PA2 = TX, PA3 = RX) |
-| **ESP32 DevKit V1** | Modbus Master + Web Interface | UART2 (TX = GPIO17, RX = GPIO16) |
-| **Communication** | RS485 or direct UART | 9600 baud, 8N1 |
-| **LED** | GPIO2 (onboard ESP32 LED) | Controlled via web panel |
+| STM32 NUCLEO-L467RG | Modbus Slave | UART2 (PA2 = TX, PA3 = RX) |
+| ESP32 DevKit V1 | Modbus Master + Web Interface | UART2 (TX = GPIO17, RX = GPIO16) |
+| Communication | UART | 115200 baud, 8N1 |
+| LED | GPIO2 (onboard ESP32 LED) | Controlled via web panel |
 
 ## Software
 
@@ -40,3 +40,4 @@ The ESP32 hosts a simple, responsive web page that:
 - Displays live Modbus data (register values, communication status)
 - Allows toggling the LED on STM32 or ESP32
 - Runs fully locally (no internet required)
+
